@@ -62,6 +62,6 @@ I enjoy solving challenging problems and turning data into meaningful solutions.
 
 
 <div align="center">
-  ![Snake animation](https://raw.githubusercontent.com/luizferreira/luizferreira/output/github-contribution-grid-snake-dark.svg)
+  ![Snake animation](https://raw.githubusercontent.com/LuuizJose/LuuizJose/output/github-contribution-grid-snake-dark.svg)
 </div>
 
