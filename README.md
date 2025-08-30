@@ -60,8 +60,3 @@ I enjoy solving challenging problems and turning data into meaningful solutions.
   <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizferreira&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
-
-<div align="center">
-  ![Snake animation](https://raw.githubusercontent.com/LuuizJose/LuuizJose/output/github-contribution-grid-snake-dark.svg)
-</div>
-
