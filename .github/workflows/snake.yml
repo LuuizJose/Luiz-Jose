@@ -1,5 +1,8 @@
 name: Generate GitHub Contribution Snake
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -14,6 +17,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Criar pasta dist
         run: mkdir -p dist
 
@@ -23,19 +29,11 @@ jobs:
           github_user_name: luizferreira
           outputs: |
             dist/github-contribution-grid-snake.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Gerar Snake Dark
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: luizferreira
-          outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push para branch output
+      - name: Deploy GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
