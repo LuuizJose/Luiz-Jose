@@ -29,6 +29,8 @@ I enjoy solving challenging problems and turning data into meaningful solutions.
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Frameworks & Libraries
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -59,4 +61,3 @@ I enjoy solving challenging problems and turning data into meaningful solutions.
   <img height="165em" src="https://github-readme-stats.vercel.app/api?username=luizferreira&show_icons=true&theme=radical"/>
   <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizferreira&layout=compact&langs_count=7&theme=radical"/>
 </div>
-
